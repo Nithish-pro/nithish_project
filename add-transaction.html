@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Transaction - Income/Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="m">
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="profile.html">Update Profile</a>
+    </div>
+    <div class="form-section">
+      <h1><i><centre>Add New Transaction</i></centre></h1>
+      <form>
+        <label for="type"><i>Type</i></label>
+          <select id="type" name="type">
+            <option value="income"><i>Income</i></option>
+            <option value="expense">Expense</option>
+          </select>
+
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount">
+
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" placeholder="Enter description">
+
+        <button type="submit" class="btn">Add Transaction</button>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>

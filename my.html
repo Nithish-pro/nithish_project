@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff6a00, #ee0979, #ff6a00, #00c6ff, #0072ff);
+            background:   url('assets/a4.jpg') no-repeat center center/cover; 
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(11, 90px);
+            grid-template-rows: repeat(11, 50px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin: 100px 250px;
+            border: 3px solid #333;
+            background-color: #f8f9fa;
+            background:   url('assets/a2.jpg') no-repeat center center/cover; 
+            
+
+        }
+        .a1 {
+            grid-area: 2 / 2 / 3 / 4;
+            border: 3px solid #ff5733;
+            background-color: #ffe6e6;
+            color: #a83232;
+            text-align: center;
+            padding: 10px;
+            border-radius: 50%;
+            overflow: hidden;
+            font-weight: bold;
+        }
+        .a2 {
+            grid-area: 2 / 8 / 3 / 10;
+            border: 3px solid #33c1ff;
+            background-color: #e6f7ff;
+            color: #1f78b4;
+            text-align: center;
+            padding: 6px;
+            border-radius: 50%;
+            overflow: hidden;
+            font-weight: bold;
+        }
+        .a6 {
+            grid-area: 9 / 2 / 10 / 4;
+            border: 3px solid #28a745;
+            background-color: #d4edda;
+            color: #155724;
+            text-align: center;
+            padding: 6px;
+            border-radius: 50%;
+            overflow:hidden;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .a7 {
+            grid-area: 9 / 8 / 10 / 10;
+            border: 3px solid #ffc107;
+            background-color: #fff3cd;
+            color: #856404;
+            text-align: center;
+            padding: 10px;
+            border-radius: 50%;
+            
+            font-weight: bold;
+        }
+        .a8{
+            grid-area: 11/11/12/12;
+        }
+        .a3{
+            grid-area:   11 / 8 / 12 / 11;
+        }
+        .a8 button{
+            padding: 10px;
+             width: 90px;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+            color: #0c5460;
+            
+
+            background-color: black;
+        }
+        .a8 a{
+
+            text-decoration: none;
+            color: #d1ecf1;
+        }
+        
+        .im {
+            grid-area: 4 / 4 / 8 / 8;
+            border: 3px solid #17a2b8;
+            background-color: #d1ecf1;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .a4 {
+            text-align: center;
+            font-weight: bold;
+            color: #0c5460;
+          
+        }
+        .a3 input{
+            height: 45px;
+            width: 190px;
+        }
+        @media (max-width:768px){
+            .main{
+                text-align: center;
+                max-width: 800px;
+               
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="a1">
+            <i><em><strong>>>INDIA<<</strong></em></i>
+        </div>
+        <div class="a2">
+            <i><strong>>>ANDHRA PRADESH<<</strong></i>
+        </div>
+        <div class="im">
+            <div class="a4">
+                <i><strong>&#12855 NITHISH &#12855</strong></i>
+            </div>
+        </div>
+        <div class="a6">
+            <i><strong>>>NITHISHKUCHI@GMAIL.COM<<</strong></i>
+        </div>    
+        <div class="a7">
+         <i><strong>>>XX/XX/XXXX<<</strong></i>
+        </div>
+        <div class="a8">
+            <button><a href="index.html">Enter</a></button>
+        </div>
+        <div class="a3">
+            <label for="pass"><i><strong>password:</strong></i></label>
+            <input type="password" id="pass" placeholder="enter your password">
+        </div>
+
+    </div>
+</body>
+</html>
